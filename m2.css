@@ -1,0 +1,46 @@
+/* يتم تحديد نمط الجسم الأساسي */
+body {
+    font-family: 'Arial', sans-serif; 
+    background-color: #f7f3e9; 
+
+    text-align: center; 
+    direction: rtl; 
+}
+
+/* يتم تحديد نمط الحاوية */
+.container {
+    margin: 20px auto; 
+    padding: 20px; 
+    max-width: 600px; 
+    background-color: #f8e1a6;
+   
+}
+
+/* يتم تحديد نمط العناوين */
+h1 {
+    margin-bottom: 20px; 
+    color: #533f03; 
+    font-size: 24px; 
+}
+
+/* يتم تحديد نمط الجدول */
+table {
+    width: 100%; 
+}
+
+
+
+ td {
+    padding: 10px; 
+    text-align: center; 
+    color: #533f03; 
+}
+
+
+table tr:nth-child(even) {
+    background-color: #ffffff; 
+}
+
+table tr:nth-child(odd) {
+    background-color: #ad9d66; 
+}

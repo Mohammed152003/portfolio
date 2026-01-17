@@ -1,0 +1,63 @@
+
+body {
+    font-family: Arial, sans-serif; 
+}
+
+header {
+    text-align: center; 
+    background-color: #dbdf0a; 
+    padding: 20px; 
+}
+
+nav ul {
+    list-style: none; 
+}
+
+nav ul li {
+    display: inline; 
+}
+
+section {
+    margin: 20px; 
+    text-align: center;
+}
+/* تحديد نمط حاوية المنتجات */
+#products {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+}
+/* تحديد نمط عنصر المنتج */
+.product {
+    border: 1px solid #bff303;
+    padding: 15px;
+    margin: 10px; 
+    text-align: center; 
+    width: 250px; 
+    
+}
+.product img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+.product p {
+    color: rgb(27, 25, 25); 
+}
+
+.product input {
+    background-color: #0211e6; 
+    color: rgb(255, 255, 255); 
+    padding: 10px 20px; 
+    
+}
+
+.product input:hover {
+    background-color: #021220; 
+}
+#contact {
+    background-color: #dfdcdc;
+    padding: 20px;
+    text-align: center;
+    margin: 20px 0;
+}

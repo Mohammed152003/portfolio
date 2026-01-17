@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.price-list-container {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 400px;
+    background-color: #2ec291;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #c2dad5;
+}
+
+.price-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.price-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #86a176;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.price-list li:hover {
+    background-color: #333333;
+    transition: 0.3s;
+}
+
+.amount {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.price {
+    font-size: 18px;
+    color: #fbffff;
+}
