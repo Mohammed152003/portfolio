@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('C:/Users/hp/Desktop/Programing_CN281/m5.jpg');
+    background-image: url('m5.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -53,4 +53,5 @@ li.active {
 a {
     text-decoration: none;
     color: #333;
+
 }
