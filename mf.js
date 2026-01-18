@@ -12,9 +12,10 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         message.style.color = 'green';
         message.textContent = 'تم تسجيل الدخول بنجاح!';
         // الانتقال إلى الصفحة الجديدة
-        window.location.href = 'file:///C:/Users/hp/Desktop/Programing_CN281/Moad.html';
+        window.location.href = 'Moad.html';
     } else {
         message.style.color = 'red';
         message.textContent = 'يجب أن تكون كلمة المرور بين 6 و 10 أحرف.';
     }
+
 });
